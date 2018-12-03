@@ -13,6 +13,7 @@
 		CDC9D37C21B4B10900225E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D37821B4B10900225E13 /* LaunchScreen.storyboard */; };
 		CDC9D37D21B4B10900225E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D37921B4B10900225E13 /* Assets.xcassets */; };
 		CDC9D37E21B4B10900225E13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D37A21B4B10900225E13 /* main.m */; };
+		CDC9D38621B4F02B00225E13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D38521B4F02B00225E13 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		CDC9D37921B4B10900225E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC9D37A21B4B10900225E13 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDC9D38021B4B18300225E13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC9D38421B4F02B00225E13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDC9D38521B4F02B00225E13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 		CDC9D35C21B4AFA400225E13 /* YSFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CDC9D38221B4EF8100225E13 /* Base */,
 				CDC9D37321B4B01D00225E13 /* ViewController */,
 				CDC9D35D21B4AFA400225E13 /* AppDelegate.h */,
 				CDC9D35E21B4AFA400225E13 /* AppDelegate.m */,
@@ -106,6 +110,23 @@
 				CDC9D37A21B4B10900225E13 /* main.m */,
 			);
 			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		CDC9D38221B4EF8100225E13 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9D38321B4EF8100225E13 /* Expand */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CDC9D38321B4EF8100225E13 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9D38421B4F02B00225E13 /* ViewController.h */,
+				CDC9D38521B4F02B00225E13 /* ViewController.m */,
+			);
+			path = Expand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +222,7 @@
 			files = (
 				CDC9D37621B4B04600225E13 /* MainViewController.m in Sources */,
 				CDC9D37E21B4B10900225E13 /* main.m in Sources */,
+				CDC9D38621B4F02B00225E13 /* ViewController.m in Sources */,
 				CDC9D35F21B4AFA400225E13 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
