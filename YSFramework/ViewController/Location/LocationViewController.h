@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  LocationViewController.h
 //  YSFramework
 //
-//  Created by qitmac000370 on 2018/12/3.
+//  Created by qitmac000370 on 2018/12/4.
 //  Copyright © 2018年 wch. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface LocationViewController : UIViewController
 
 @end
 

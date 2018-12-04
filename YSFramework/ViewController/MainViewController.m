@@ -7,8 +7,13 @@
 //
 
 #import "MainViewController.h"
+#import "LoadingViewController.h"
+#import "LocationViewController.h"
 
-@interface MainViewController ()
+@interface MainViewController (){
+    int times;
+    UIImageView *roundImageView;
+}
 
 @end
 
@@ -18,16 +23,23 @@
     [super viewDidLoad];
     
     self.title = @"主页";
+    
+    [self setUpInnerView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setUpInnerView{
+    UIButton *locationBtn = [self createUIButtonWithFrame:CGRectMake(20, 150, 335, 50) title:@"地图" customTag:@"location"];
+    [self.view addSubview:locationBtn];
 }
-*/
+
+- (void)commonBtnAction:(id)sender{
+    UIButton *btn = (UIButton *)sender;
+    NSString *key = objc_getAssociatedObject(btn, @"customtag");
+    
+    if([key isEqualToString:@"location"]){
+        LocationViewController *locationVC = [[LocationViewController alloc] init];
+        [self.navigationController pushViewController:locationVC animated:YES];
+    }
+}
 
 @end

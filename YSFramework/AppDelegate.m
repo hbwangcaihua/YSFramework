@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseConst.h"
 #import "MainViewController.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [AMapServices sharedServices].apiKey = Location_GaoDeKey;
+    
+    //加载MainViewController
     MainViewController *mainVC = [[MainViewController alloc] init];
     UINavigationController *mainNC = [[UINavigationController alloc] initWithRootViewController:mainVC];
     

@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  LoadingViewController.h
 //  YSFramework
 //
 //  Created by qitmac000370 on 2018/12/3.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainViewController : BaseViewController
+@interface LoadingViewController : UIViewController
 
 @end
 

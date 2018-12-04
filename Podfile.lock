@@ -1,16 +1,24 @@
 PODS:
+  - AMapFoundation (1.5.5)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
   - MBProgressHUD (0.9.2)
 
 DEPENDENCIES:
+  - AMapLocation
   - MBProgressHUD (~> 0.9.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AMapFoundation
+    - AMapLocation
     - MBProgressHUD
 
 SPEC CHECKSUMS:
+  AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
 
-PODFILE CHECKSUM: 0822200713856815fedd604ce1453a44c2efa936
+PODFILE CHECKSUM: 7068f1fe93be81e3dc785001c486d09055336e67
 
 COCOAPODS: 1.5.3
