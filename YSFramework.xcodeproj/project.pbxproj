@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CC6CECA5293C12D14C6537E2 /* libPods-YSFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DC82315DEF7529B89750EE /* libPods-YSFramework.a */; };
+		CD00A93B21BDF28900696545 /* MapNearbyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00A93A21BDF28900696545 /* MapNearbyLocationViewController.m */; };
+		CD00A93E21BDF9EE00696545 /* SelectLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00A93C21BDF9EE00696545 /* SelectLocationCell.m */; };
 		CD4EC79E21B63318002E8E96 /* NSMutableDictionary+YSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC79D21B63318002E8E96 /* NSMutableDictionary+YSSafe.m */; };
 		CD4EC7A121B63C5C002E8E96 /* NSDictionary+YSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7A021B63C5C002E8E96 /* NSDictionary+YSSafe.m */; };
 		CD4EC7A421B65B9B002E8E96 /* NSDictionary+YSRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7A321B65B9B002E8E96 /* NSDictionary+YSRemove.m */; };
@@ -22,6 +24,7 @@
 		CD4EC7D021B6998F002E8E96 /* UIImage+YSOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7CF21B6998F002E8E96 /* UIImage+YSOrientation.m */; };
 		CD4EC7D321B69C55002E8E96 /* UIImage+YSResize.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7D221B69C55002E8E96 /* UIImage+YSResize.m */; };
 		CD4EC7D621B6A554002E8E96 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7D521B6A554002E8E96 /* BaseViewController.m */; };
+		CD4EC7D921B8A67E002E8E96 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EC7D821B8A67E002E8E96 /* MapViewController.m */; };
 		CDC9D35F21B4AFA400225E13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D35E21B4AFA400225E13 /* AppDelegate.m */; };
 		CDC9D37621B4B04600225E13 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D37521B4B04600225E13 /* MainViewController.m */; };
 		CDC9D37C21B4B10900225E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D37821B4B10900225E13 /* LaunchScreen.storyboard */; };
@@ -35,12 +38,18 @@
 		CDC9D3A821B5561500225E13 /* NSString+YSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D3A721B5561500225E13 /* NSString+YSBase64.m */; };
 		CDC9D3AC21B5564D00225E13 /* NSData+YSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D3AB21B5564D00225E13 /* NSData+YSBase64.m */; };
 		CDC9D3B021B5FFB800225E13 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D3AF21B5FFB800225E13 /* LocationViewController.m */; };
+		CDFD6FF721B9FE1C009004D3 /* icon_location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFD6FF521B9FE1A009004D3 /* icon_location@3x.png */; };
+		CDFD6FF821B9FE1C009004D3 /* icon_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFD6FF621B9FE1B009004D3 /* icon_location@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02156DDB2579339DB2B9CC78 /* Pods-YSFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSFramework/Pods-YSFramework.release.xcconfig"; sourceTree = "<group>"; };
 		19B787079488C857D093F576 /* Pods-YSFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSFramework/Pods-YSFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		81DC82315DEF7529B89750EE /* libPods-YSFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD00A93921BDF28900696545 /* MapNearbyLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapNearbyLocationViewController.h; sourceTree = "<group>"; };
+		CD00A93A21BDF28900696545 /* MapNearbyLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapNearbyLocationViewController.m; sourceTree = "<group>"; };
+		CD00A93C21BDF9EE00696545 /* SelectLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationCell.m; sourceTree = "<group>"; };
+		CD00A93D21BDF9EE00696545 /* SelectLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationCell.h; sourceTree = "<group>"; };
 		CD4EC79C21B63318002E8E96 /* NSMutableDictionary+YSSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YSSafe.h"; sourceTree = "<group>"; };
 		CD4EC79D21B63318002E8E96 /* NSMutableDictionary+YSSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YSSafe.m"; sourceTree = "<group>"; };
 		CD4EC79F21B63C5C002E8E96 /* NSDictionary+YSSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YSSafe.h"; sourceTree = "<group>"; };
@@ -69,6 +78,8 @@
 		CD4EC7D221B69C55002E8E96 /* UIImage+YSResize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YSResize.m"; sourceTree = "<group>"; };
 		CD4EC7D421B6A554002E8E96 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		CD4EC7D521B6A554002E8E96 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CD4EC7D721B8A67E002E8E96 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CD4EC7D821B8A67E002E8E96 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		CDC9D35A21B4AFA400225E13 /* YSFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC9D35D21B4AFA400225E13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDC9D35E21B4AFA400225E13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +104,8 @@
 		CDC9D3AE21B5FFB800225E13 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		CDC9D3AF21B5FFB800225E13 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		CDC9D3B421B60A3600225E13 /* BaseConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseConst.h; sourceTree = "<group>"; };
+		CDFD6FF521B9FE1A009004D3 /* icon_location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_location@3x.png"; sourceTree = "<group>"; };
+		CDFD6FF621B9FE1B009004D3 /* icon_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_location@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +301,8 @@
 		CDC9D38721B503B300225E13 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CDFD6FF621B9FE1B009004D3 /* icon_location@2x.png */,
+				CDFD6FF521B9FE1A009004D3 /* icon_location@3x.png */,
 				CDC9D38F21B51CE700225E13 /* LoadingCamel_000.png */,
 				CDC9D38821B503B300225E13 /* LoadingCamelBG@2x.png */,
 			);
@@ -337,8 +352,14 @@
 		CDC9D3AD21B5FF5F00225E13 /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				CD00A93D21BDF9EE00696545 /* SelectLocationCell.h */,
+				CD00A93C21BDF9EE00696545 /* SelectLocationCell.m */,
 				CDC9D3AE21B5FFB800225E13 /* LocationViewController.h */,
 				CDC9D3AF21B5FFB800225E13 /* LocationViewController.m */,
+				CD4EC7D721B8A67E002E8E96 /* MapViewController.h */,
+				CD4EC7D821B8A67E002E8E96 /* MapViewController.m */,
+				CD00A93921BDF28900696545 /* MapNearbyLocationViewController.h */,
+				CD00A93A21BDF28900696545 /* MapNearbyLocationViewController.m */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -371,6 +392,7 @@
 				CDC9D35621B4AFA400225E13 /* Sources */,
 				CDC9D35721B4AFA400225E13 /* Frameworks */,
 				CDC9D35821B4AFA400225E13 /* Resources */,
+				A037002AAC685F1CA78E6631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -392,6 +414,11 @@
 				TargetAttributes = {
 					CDC9D35921B4AFA400225E13 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -418,8 +445,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFD6FF821B9FE1C009004D3 /* icon_location@2x.png in Resources */,
 				CDC9D38A21B503B300225E13 /* LoadingCamelBG@2x.png in Resources */,
 				CDC9D37D21B4B10900225E13 /* Assets.xcassets in Resources */,
+				CDFD6FF721B9FE1C009004D3 /* icon_location@3x.png in Resources */,
 				CDC9D37C21B4B10900225E13 /* LaunchScreen.storyboard in Resources */,
 				CDC9D39021B51CE700225E13 /* LoadingCamel_000.png in Resources */,
 			);
@@ -428,6 +457,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A037002AAC685F1CA78E6631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YSFramework/Pods-YSFramework-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSFramework/Pods-YSFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D7989B2EF4C49BDA06D4EAC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,12 +505,14 @@
 				CD4EC7D021B6998F002E8E96 /* UIImage+YSOrientation.m in Sources */,
 				CD4EC7D621B6A554002E8E96 /* BaseViewController.m in Sources */,
 				CD4EC7B321B65FB1002E8E96 /* NSObject+YSSerialize.m in Sources */,
+				CD4EC7D921B8A67E002E8E96 /* MapViewController.m in Sources */,
 				CDC9D39F21B54DC100225E13 /* NSString+YSCheck.m in Sources */,
 				CDC9D37621B4B04600225E13 /* MainViewController.m in Sources */,
 				CD4EC7AD21B65E75002E8E96 /* NSString+YSSerialize.m in Sources */,
 				CDC9D3A821B5561500225E13 /* NSString+YSBase64.m in Sources */,
 				CDC9D3AC21B5564D00225E13 /* NSData+YSBase64.m in Sources */,
 				CDC9D37E21B4B10900225E13 /* main.m in Sources */,
+				CD00A93B21BDF28900696545 /* MapNearbyLocationViewController.m in Sources */,
 				CD4EC7C821B694DE002E8E96 /* UIAlertController+YSAlert.m in Sources */,
 				CDC9D3A521B54E4800225E13 /* NSString+YSUtility.m in Sources */,
 				CD4EC7C421B68FA3002E8E96 /* NSArray+YSCheck.m in Sources */,
@@ -473,6 +524,7 @@
 				CD4EC7A421B65B9B002E8E96 /* NSDictionary+YSRemove.m in Sources */,
 				CD4EC7BE21B67C36002E8E96 /* UIColor+YSTurnRGB.m in Sources */,
 				CD4EC7CC21B697A8002E8E96 /* UIView+YSLayout.m in Sources */,
+				CD00A93E21BDF9EE00696545 /* SelectLocationCell.m in Sources */,
 				CD4EC7D321B69C55002E8E96 /* UIImage+YSResize.m in Sources */,
 				CD4EC79E21B63318002E8E96 /* NSMutableDictionary+YSSafe.m in Sources */,
 				CD4EC7C121B68F48002E8E96 /* NSArray+YSSerialize.m in Sources */,
